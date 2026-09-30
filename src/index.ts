@@ -23,7 +23,7 @@ export const app = new Elysia({
       hmr: false // Das deaktiviert das fehlerhafte Modul-Injektions-HMR im Browser!
     }
   }
-})
+}).use(cors())
 
 
 

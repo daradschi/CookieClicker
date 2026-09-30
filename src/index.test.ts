@@ -13,9 +13,10 @@ describe("Elysia API - Routing Tests", () => {
 });
 
 test("Mathematik funktioniert", () => {
-  expect(1 + 1).toBe(2);
+  expect(66 + 44).toBe(110);
 });
 
 test("Button testen", () => {
+  
     
 })
