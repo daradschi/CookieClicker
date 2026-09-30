@@ -117,7 +117,7 @@ export default function ChartAreaDefault() {
           </div>
         </CardFooter>
       </Card>
-      <Link to="/daily" className="bg-blue-500 rounded-lg p-2 cursor-pointer">Zur aktuellen Monatsübersicht</Link>
+      <Link to="/daily" className="bg-blue-500 rounded-lg p-2 cursor-pointer">Zur aktuellen Monatsübersicht HALLO TEST !"§</Link>
     </>
   )
 }
