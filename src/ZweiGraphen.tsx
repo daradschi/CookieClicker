@@ -214,9 +214,9 @@ export default function ChartLineMultiple() {
                 </CardFooter>
             </Card>
             <Link to="/daily" className="bg-blue-500 rounded-lg p-2 cursor-pointer">Zurück zu aktuellem Monat</Link>
-            <div className="flex justify-center items-center w-80 h-80 mx-auto mt-6">
+            <div className="flex justify-center items-center  mx-auto mt-6">
                 <button
-                    className="flex items-center justify-center border-4 border-slate-700 rounded-2xl w-full h-full bg-white/50 active:scale-95 transition-transform"
+                    className="flex items-center justify-center border-4 border-slate-700 rounded-2xl w-44 h-42 bg-white/50 active:scale-95 transition-transform"
                     onClick={() => progressBerechnen()}
                 >
                     {/* Hier erzwingen wir die Größe direkt, unabhängig von Tailwind */}

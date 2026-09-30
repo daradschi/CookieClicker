@@ -17,7 +17,7 @@ try {
   console.error('Fehler bei der MongoDB-Verbindung:', error);
 }
 
-const app = new Elysia({
+export const app = new Elysia({
   serve: {
     development: {
       hmr: false // Das deaktiviert das fehlerhafte Modul-Injektions-HMR im Browser!
@@ -25,14 +25,7 @@ const app = new Elysia({
   }
 })
 
-  // HTTP Endpunkte
-  .get('/api/todos', () => {
-    return [
-      { id: 1, text: "Milch kaufen" },
-      { id: 2, text: "Programmieren lernen" },
-      { id: 3, text: "CookieClicker" }
-    ];
-  })
+
 
   .get('/api/gamestate/:userId', async ({ params }) => {
     const idAlsZahl = Number(params.userId);
