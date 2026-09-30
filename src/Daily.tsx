@@ -21,15 +21,15 @@ export const description = "A simple area chart"
 const dataMap = new Map<string, number>()
 
 export const DailyChartData = [
-    { day: "1. September", mulisProduziert: 12 },
-    { day: "2. September", mulisProduziert: 14 },
-    { day: "3. September", mulisProduziert: 15 },
-    { day: "4. September", mulisProduziert: 11 },
-    { day: "5. September", mulisProduziert: 12 },
-    { day: "6. September", mulisProduziert: 12 },
-    { day: "7. September", mulisProduziert: 12 },
-    { day: "8. September", mulisProduziert: 16 },
-    { day: "9. September", mulisProduziert: 13 },
+    {  day: "1. September", mulisProduziert: 12 },
+    {  day: "2. September", mulisProduziert: 14 },
+    {  day: "3. September", mulisProduziert: 15 },
+    {  day: "4. September", mulisProduziert: 11 },
+    {  day: "5. September", mulisProduziert: 12 },
+    {  day: "6. September", mulisProduziert: 12 },
+    {  day: "7. September", mulisProduziert: 12 },
+    {  day: "8. September", mulisProduziert: 16 },
+    {  day: "9. September", mulisProduziert: 13 },
     { day: "10. September", mulisProduziert: 14 },
     { day: "11. September", mulisProduziert: 15 },
     { day: "12. September", mulisProduziert: 14 },
@@ -145,6 +145,7 @@ export default function ChartAreaDefault() {
                 </CardFooter>
             </Card>
             <Link to="/zwei" className="bg-blue-500 rounded-lg p-2 cursor-pointer">Mit vorherigem Monat vergleichen</Link>
+            <Link to="/test" className="bg-blue-500 rounded-lg p-2 cursor-pointer">Zur Jahresübersicht</Link>
         </div>
     )
 }

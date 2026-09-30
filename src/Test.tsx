@@ -15,6 +15,7 @@ import {
   ChartTooltipContent,
   type ChartConfig,
 } from "@/components/ui/chart"
+import { Link } from "@tanstack/react-router"
 export const description = "A simple area chart"
 
 const chartData = [
@@ -116,6 +117,7 @@ export default function ChartAreaDefault() {
           </div>
         </CardFooter>
       </Card>
+      <Link to="/daily" className="bg-blue-500 rounded-lg p-2 cursor-pointer">Zur aktuellen Monatsübersicht</Link>
     </>
   )
 }
